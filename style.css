@@ -1,0 +1,110 @@
+/* header */
+*{
+    font-family: arial;
+}
+
+header{
+    display: flex;
+    background-color: pink;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+#logo{
+    width: 30%;
+    margin-right: 10%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+nav ul li{
+    margin: 0 1em;
+}
+
+nav  ul li a{
+    text-decoration: none;
+    color: blue ;
+    font-weight: bold;
+    font-size: 2em;
+}
+/* pictures */
+main{
+    background-color: white;
+    height: 1000em;
+}
+
+h2{
+    color: red;
+    text-align: center;
+}
+
+/* .featured_items{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    padding: 2em;
+    justify-content: space-between;
+    border-radius: 10px;
+}*/
+
+aside#sidebar{
+  margin: auto;
+  width:30%;
+  margin-top:10px;
+  padding: 3em;
+  background: bisque;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+ .skills button {
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 200px;
+    background-color: #00999c;
+    cursor: pointer;
+}
+
+.skills button {
+    text-decoration: none;
+    color: white;
+}
+
+.skills button:hover{
+    transition: 1s;
+    background-color: #ecf5f5;
+    color: #00999c;
+}
+  
+ .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+}
+
+footer{
+    background-color: orange;
+    text-align: center;
+    padding: 1em;
+    margin-top: 10px;
+}
+
+footer p{
+   color: black; 
+   font-size: 12px;
+}
+
+
+
+
